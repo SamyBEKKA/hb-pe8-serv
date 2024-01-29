@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>exo avec boostrap</title>
+</head>
+<body>
+    <header>
+        <p></p>
+    </header>
+    <mean class="">
+        <h1>Titre</h1>
+        <section class="section"> <!-- ICI on met si on veut un backgroud à la section en ajoutant sa class -->
+        <div class="container"> <!-- container si on touche pas container-fluid si on touche -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="border mb-4 h-100">
+                                                
+                        <!-- ligne 1 -->
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="border mb-4">1</div>
+                            </div>
+                            <div class="col-6">
+                                <div class="border mb-4">2</div>
+                            </div>
+                        </div>								
+                        <!-- Cette ligne est caché sur desktop et visible sur tel -->
+                        <div class="d-lg-none d-block">
+                            <div class="border mb-4 h-100">
+                                3
+                            </div>
+                        </div>
+                        <!-- ligne 2 -->
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="border mb-4">4</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border mb-4">5</div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border mb-4">6</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Cette ligne est caché sur tel et visible sur desktop -->
+                <div class="col-lg-6 d-lg-block d-none">
+                    <div class="border mb-4 h-100">
+                        3
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </mean>
+    <footer>
+    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+
+.imgbac1{
+  background-image: url('../images/Chevrolet-Camaro-ZL1-.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 526px ;
+  
+}
+.orangebac{
+  background-color: rgb(255, 136, 0);
+}
+
+.borangebac{
+  background-color:  rgb(255, 105, 5);
+}
+.backblack{
+background-color: rgb(33, 33, 33);
+}
+
+.borderlin{
+  border:1px solid;
+}
+.borderlin:hover {
+  border-top: 2px solid rgb(255, 105, 5);
+}
+.borderlintop{
+  border-top:1px solid;
+}
+.borderlintoporg{
+  border-top: 1px solid rgb(255, 105, 5) ;
+}
+.borderlintop:hover {
+  border-top: 2px solid rgb(255, 105, 5);
+}
+.org:hover{
+  background-color:  rgb(255, 136, 0);
+}
